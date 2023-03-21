@@ -6,7 +6,7 @@ datasources:
     access: proxy
     url: http://influxdb:8086
     user: $INFLUXDB_USER
-    database: appmetrics
+    database: $INFLUXDB_DB
     isDefault: true
     jsonData:
       httpMode: GET
